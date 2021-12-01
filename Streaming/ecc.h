@@ -10,9 +10,6 @@ typedef ap_uint<13> data_13;
 typedef ap_uint<1> data_1;
 typedef ap_uint<4> data_4;
 
-typedef ap_axiu<5, 0, 0, 0> stream_5;
-typedef ap_axiu<8, 0, 0, 0> stream_8;
-
 struct axis_data_8{
 	data_8 data;
 	bool last;
